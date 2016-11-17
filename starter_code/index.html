@@ -13,9 +13,9 @@
     <body>
 
         <div class="container">
-            <div class="choice" id="rock">rock</div>
-            <div class="choice" id="paper">paper</div>
-            <div class="choice" id="scissors">scissors</div>
+            <button class="choice" id="rock" onClick='handleUserClick(this.id)'>rock</button>
+            <button class="choice" id="paper" onClick='handleUserClick(this.id)'>paper</button>
+            <button class="choice" id="scissors" onClick=''>scissors</button>
 
             <p>
                 <strong>Computer's choice:</strong><br/>
@@ -23,10 +23,11 @@
             </p>
             <p>
                 <strong>Winner:</strong><br/>
-                <span id="winer"></span>
+                <span id="winner"></span>
             </p>
 
         </div>
+
 
   </body>
 
